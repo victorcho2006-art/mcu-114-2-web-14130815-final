@@ -19,6 +19,8 @@ export class App {
   
   createDate = new Date('2026/6/10');
 
+  price = 10000;
+
   onSetDisplay(isShow: boolean): void {
     this.isShow = isShow;
   }

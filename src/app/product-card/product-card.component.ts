@@ -32,6 +32,9 @@ export class ProductCardComponent {
   @Input()
   createDate!: Date;
 
+  @Input({ transform: numberAttribute })
+  price!: number;
+
   onSetDisplay(isShow: boolean): void {
     this.isShowChange.emit(this.isShow);
   }

@@ -8,5 +8,4 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.scss'
 })
 export class App {
-  protected readonly title = signal('mcu-114-2-web-14130815-final');
 }

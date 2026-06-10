@@ -12,4 +12,10 @@ export class ProductCardComponent {
   protected company = '博碩文化';
 
   protected isShow = true;
+
+  protected photoUrl = 'https://api.fnkr.net/testimg/200x200/DDDDDD/999999/?text=img';
+
+  protected onSetDisplay(isShow: boolean): void {
+    this.isShow = isShow;
+  }
 }
